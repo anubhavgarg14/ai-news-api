@@ -1,5 +1,6 @@
 from openai import OpenAI
 
+import app.config  # noqa: F401  (loads .env before the client is built)
 from app.schemas.news import ArticleEnrichment
 
 client = OpenAI()

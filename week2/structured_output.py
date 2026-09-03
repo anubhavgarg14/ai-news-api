@@ -1,8 +1,11 @@
 import json
 from typing import List
 
+from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel
+
+load_dotenv()
 
 client = OpenAI()
 
