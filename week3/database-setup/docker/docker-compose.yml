@@ -6,9 +6,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=postgres
+      - POSTGRES_USER=ai_news
+      - POSTGRES_PASSWORD=Dgp@080405
+      - POSTGRES_DB=ai_news
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
