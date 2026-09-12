@@ -1,0 +1,2 @@
+git add .
+git commit -m "week4: pull in pgvector-setup and rag-pipeline tutorials"
