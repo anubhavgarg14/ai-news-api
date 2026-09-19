@@ -19,6 +19,8 @@ def answer_from_context(question: str, contexts: list[str]) -> GroundedAnswer:
             "Answer only from the supplied context. Do not use outside knowledge. "
             "For a numeric question, return only the number and requested unit. "
             "For a true/false question, start the answer with 'true' or 'false'. "
+            "For a text question, copy names, model numbers, and qualifiers exactly as they "
+            "appear in the context — do not abbreviate, generalize, or drop suffixes/variants. "
             "If the context does not contain enough evidence, set supported to false "
             "and answer 'Not enough information'."
         ),
