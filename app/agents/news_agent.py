@@ -1,9 +1,6 @@
-from dotenv import load_dotenv
 from openai import OpenAI
 
 from app.schemas.news import ArticleEnrichment
-
-load_dotenv()
 
 client = OpenAI()
 
