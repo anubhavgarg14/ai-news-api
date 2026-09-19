@@ -11,3 +11,5 @@ __pycache__/
 
 # Scraped data output
 data/
+# Docker env override
+.env.docker
